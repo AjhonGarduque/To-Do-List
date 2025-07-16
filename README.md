@@ -73,41 +73,42 @@ Late update again — but I rebuilt the same project with a full graphical inter
 
 
 NEW FEATURES:
-GUI-BASED TASK SYSTEM:
--Replaced terminal input/output with a user interface.
--Built using Python’s tkinter module.
--Clean layout using grid() — no more hacky filler buttons.
 
+GUI-BASED TASK SYSTEM:
+- Replaced terminal input/output with a user interface.
+- Built using Python’s tkinter module.
+- Clean layout using grid() — no more hacky filler buttons
+  
 ADD TASK:
--Enter tasks through an input box (Entry widget).
--Auto lowercased and stripped like before.
--Tasks instantly show up in the left listbox.
+- Enter tasks through an input box (Entry widget)
+- Auto lowercased and stripped like before
+- Tasks instantly show up in the left listbox.
 
 MARK AS DONE:
--Select a task from the To-Do list and click “Update Task.”
--Task gets moved to the Finished list (right side).
--JSON file is updated in real time.
+- Select a task from the To-Do list and click “Update Task.”
+- Task gets moved to the Finished list (right side).
+- JSON file is updated in real time.
 
 DELETE TASK
--Select from either To-Do or Finished list.
--Deletes the task permanently from the file.
--Handles validation if nothing is selected.
+- Select from either To-Do or Finished list.
+- Deletes the task permanently from the file
+- Handles validation if nothing is selected
 
 FILE LOADING:
--On launch, it loads To_Do list.json.
--Auto creates file if it doesn't exist.
--Persistent data, even after you closing the window.
+- On launch, it loads To_Do list.json
+- Auto creates file if it doesn't exist
+- Persistent data, even after you closing the window
 
 ##Concepts Used in GUI Version:
--Tkinter (GUI layout, event handling)
--grid() layout manager
--Listbox widgets (for task display)
--Buttons + Entry input
--File reading/writing with json
--Input validation
--Refreshing widgets dynamically
--Lowercasing + formatting strings
--Better error handling (curselection() edge cases)
+- Tkinter (GUI layout, event handling)
+- grid() layout manager
+- Listbox widgets (for task display)
+- Buttons + Entry input
+- File reading/writing with json
+- Input validation
+- Refreshing widgets dynamically
+- Lowercasing + formatting strings
+- Better error handling (curselection() edge cases)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
