@@ -65,3 +65,55 @@ It started as a basic add/print loop just like the student management system to 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 I was kinda just trying to make a small to-do app but I realized that I was already managing data in files and designing a system... planning to do smth bigger to make up for the lost time. 2 weeks is a big gap. I'll keep on updating the other mini projects.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Version 2 - GUI Upgrade (Tkinter)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Late update again — but I rebuilt the same project with a full graphical interface using tkinter. This version takes everything from the terminal version and adds buttons, listboxes, and real-time visual updates. No more typing manually in the console.
+
+##NEW FEATURES:
+GUI-BASED TASK SYSTEM:
+-Replaced terminal input/output with a user interface.
+-Built using Python’s tkinter module.
+-Clean layout using grid() — no more hacky filler buttons.
+
+ADD TASK:
+-Enter tasks through an input box (Entry widget).
+-Auto lowercased and stripped like before.
+-Tasks instantly show up in the left listbox.
+
+MARK AS DONE:
+-Select a task from the To-Do list and click “Update Task.”
+-Task gets moved to the Finished list (right side).
+-JSON file is updated in real time.
+
+DELETE TASK
+-Select from either To-Do or Finished list.
+-Deletes the task permanently from the file.
+-Handles validation if nothing is selected.
+
+FILE LOADING:
+-On launch, it loads To_Do list.json.
+-Auto creates file if it doesn't exist.
+-Persistent data, even after you closing the window.
+
+##Concepts Used in GUI Version:
+-Tkinter (GUI layout, event handling)
+-grid() layout manager
+-Listbox widgets (for task display)
+-Buttons + Entry input
+-File reading/writing with json
+-Input validation
+-Refreshing widgets dynamically
+-Lowercasing + formatting strings
+-Better error handling (curselection() edge cases)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Was supposed to upload this on time but i have limited use on my laptop.
+I’m starting to see how it actually trains you to build real systems...managing state, files, error-handling, and UIs(GUI?).
+I still needed help figuring out curselection() and some spacing stuff, but I learned more from debugging that than from most tutorials.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Next step: maybe convert this into a .exe or try adding features like task search, sorting, or edit task. Still improving, but already feels more like something I can show.
