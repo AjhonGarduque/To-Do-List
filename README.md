@@ -71,7 +71,8 @@ Version 2 - GUI Upgrade (Tkinter)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Late update again — but I rebuilt the same project with a full graphical interface using tkinter. This version takes everything from the terminal version and adds buttons, listboxes, and real-time visual updates. No more typing manually in the console.
 
-##NEW FEATURES:
+
+NEW FEATURES:
 GUI-BASED TASK SYSTEM:
 -Replaced terminal input/output with a user interface.
 -Built using Python’s tkinter module.
